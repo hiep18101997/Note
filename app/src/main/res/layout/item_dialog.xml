@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/color1"
+    android:layout_height="250dp"
+    android:padding="10dp"
+    android:id="@+id/ln_dialog"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_date_dialog"
+        android:text="05/03/2017"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tv_content_dialog"
+        android:text="Hello Android"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:layout_width="1dp"
+            android:background="@color/color4"
+            android:layout_weight="1"
+            android:text="Xác Nhận"
+            android:id="@+id/bt_xacnhan"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="1dp"
+            android:layout_weight="1"
+            android:text="Đóng lại"
+            android:id="@+id/bt_donglai"
+            android:layout_marginLeft="5dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:background="@android:color/darker_gray"
+            android:layout_height="match_parent"/>
+    </TableRow>
+
+</LinearLayout>

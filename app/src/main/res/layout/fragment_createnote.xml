@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edt_note"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/color1"
+        android:gravity="top"
+        android:hint="Nội dung ghi nhớ"
+        android:padding="10dp"
+        android:textColorHint="@android:color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+    <DatePicker
+        android:id="@+id/datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </DatePicker>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Màu nền"
+        android:textSize="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_color_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="0099CC"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color1" />
+
+        <ImageView
+            android:id="@+id/iv_color_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="FF8800"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color2" />
+
+        <ImageView
+            android:id="@+id/iv_color_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="CC0000"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color3" />
+        <ImageView
+            android:id="@+id/iv_color_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="669900"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color4" />
+
+        <ImageView
+            android:id="@+id/iv_color_5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="AA66CC"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color5" />
+
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/bt_create"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#669900"
+        android:gravity="center"
+        android:text="Tạo ghi nhớ"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+</LinearLayout>
